@@ -10,7 +10,7 @@ func (mux *ServeMux) UnhandleFunc(pattern string) {
 
 }
 ```
-this will add the Unhandlefunc to ServeMux struct thant delete the handle pattern within ServeMux map containing the roots.
+this will add the Unhandlefunc to ServeMux struct that delete the handle pattern within ServeMux map containing the roots.
 I hope this helps someone achieve whaterver they need it for.
 
 
