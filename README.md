@@ -1,4 +1,4 @@
-﻿# QRCODE-Auth
+﻿# Unregister-httphandler
 In order for this to work we need to tweak server.go in "http" package. You can find the source code in GOROOT\src\net\http\server.go, replace GOROOT by actual path.
 Open server.go as administrator then add this piece of code :
 
